@@ -53,7 +53,7 @@ ChangeNotifierProvider
 
 Implementasi **form input dan validasi menggunakan Flutter serta state management Provider** untuk menyimpan data peserta registrasi.
 
-Proyek ini merupakan bagian dari **materi perkuliahan Pemrograman Mobile (PAB)** di **Universitas Mulawarman**.
+Proyek ini merupakan bagian dari **materi perkuliahan Pemrograman Aplikasi Bergerak (PAB)** di **Universitas Mulawarman**.
 
 ---
 
