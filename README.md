@@ -123,11 +123,15 @@ Aplikasi ini menggunakan **Provider dan ChangeNotifier** sebagai metode state ma
 
 <img width="1919" height="836" alt="image" src="https://github.com/user-attachments/assets/a9ed0671-5d66-4143-a438-30fe791e2c1c" />
 
+
 Gambar tersebut menampilkan tampilan awal Form Registrasi Event pada aplikasi Flutter. Pada halaman ini terdapat beberapa field input yang harus diisi oleh pengguna, seperti Nama Lengkap, Email, Password, Jenis Kelamin, Program Studi, serta Tanggal Lahir. Setiap input dirancang menggunakan widget seperti TextFormField, RadioListTile, dan DropdownButtonFormField. Selain itu, terdapat juga checkbox untuk menyetujui syarat dan ketentuan sebelum melakukan registrasi. Halaman ini berfungsi sebagai tempat utama pengguna memasukkan data diri yang nantinya akan disimpan dan ditampilkan dalam daftar peserta.
+
 
 <img width="1919" height="869" alt="image" src="https://github.com/user-attachments/assets/33ac84d1-396f-4b5d-b4ce-d41639cd3c63" />
 
+
 Gambar tersebut menunjukkan tampilan form registrasi yang telah diisi oleh pengguna. Data seperti nama, email, password, jenis kelamin, program studi, serta tanggal lahir telah dimasukkan ke dalam field yang tersedia. Setelah semua data diisi dengan benar, pengguna dapat menekan tombol DAFTAR SEKARANG untuk memproses registrasi. Pada tahap ini, aplikasi akan melakukan proses validasi terlebih dahulu untuk memastikan bahwa semua data yang dimasukkan sesuai dengan aturan yang telah ditentukan.
+
 
 <img width="338" height="285" alt="image" src="https://github.com/user-attachments/assets/a92bd0cd-ea04-4be5-a93b-336e0fd25937" />
 
@@ -135,23 +139,23 @@ Gambar tersebut memperlihatkan dialog notifikasi keberhasilan registrasi yang mu
 
 <img width="185" height="39" alt="image" src="https://github.com/user-attachments/assets/fa84734e-5c87-4ce2-9c29-86e1fae93c86" />
 
+
 Gambar tersebut menunjukkan badge jumlah peserta yang telah melakukan registrasi pada ikon daftar peserta di bagian AppBar. Badge ini menampilkan angka yang menunjukkan jumlah data peserta yang sudah tersimpan di dalam aplikasi. Fitur ini memanfaatkan state management menggunakan Provider, sehingga setiap kali ada peserta baru yang mendaftar, jumlah pada badge akan langsung diperbarui secara otomatis tanpa perlu memuat ulang halaman.
+
 
 <img width="1919" height="965" alt="image" src="https://github.com/user-attachments/assets/d8b33aca-c7d5-4abe-b541-d0bad3399104" />
 
+
 Gambar tersebut menampilkan halaman Daftar Peserta yang berisi seluruh data pengguna yang telah melakukan registrasi. Setiap peserta ditampilkan dalam bentuk Card atau ListTile yang memuat informasi seperti nama, program studi, dan alamat email. Pada setiap item juga terdapat tombol hapus (delete) yang memungkinkan pengguna untuk menghapus data peserta tertentu dari daftar. Selain itu, ketika salah satu item diklik, aplikasi akan menavigasi pengguna ke halaman detail peserta untuk melihat informasi yang lebih lengkap.
+
 
 <img width="312" height="211" alt="image" src="https://github.com/user-attachments/assets/b82c9288-8db8-4886-ba62-9a9e0c0d32dc" />
 
+
 Gambar tersebut memperlihatkan dialog konfirmasi penghapusan data peserta. Dialog ini muncul ketika pengguna menekan tombol hapus pada salah satu item di daftar peserta. Tujuan dari dialog ini adalah untuk memastikan bahwa pengguna benar-benar ingin menghapus data tersebut. Terdapat dua pilihan tombol yaitu Batal untuk membatalkan proses penghapusan dan Hapus untuk mengonfirmasi bahwa data peserta tersebut akan dihapus dari daftar.
+
 
 <img width="1918" height="971" alt="image" src="https://github.com/user-attachments/assets/ab1f2304-ce7e-4e90-9ad4-0495f5e04885" />
 
-Gambar tersebut menampilkan halaman detail peserta yang memperlihatkan informasi lengkap dari pengguna yang telah terdaftar. Pada halaman ini ditampilkan beberapa data seperti nama, email, jenis kelamin, program studi, serta tanggal lahir beserta umur peserta. Informasi tersebut disusun dalam bentuk kartu informasi agar lebih mudah dibaca oleh pengguna. Halaman ini diakses ketika pengguna menekan salah satu item pada daftar peserta di halaman sebelumnya.
 
-
-
-
-
-
-
+Gambar tersebut menampilkan halaman Daftar Peserta pada aplikasi registrasi dalam kondisi belum terdapat data pendaftar. Pada bagian atas terdapat AppBar dengan judul “Daftar Peserta (0)” yang menunjukkan bahwa jumlah peserta yang terdaftar saat ini masih nol. Di bagian tengah layar ditampilkan ikon ilustrasi pengguna beserta teks “Belum ada pendaftar” dan keterangan tambahan “Daftar sekarang di halaman registrasi!”. Tampilan ini muncul ketika daftar peserta pada aplikasi masih kosong, sehingga sistem menampilkan pesan informatif kepada pengguna bahwa belum ada data yang tersimpan. Selain itu, di bagian kanan bawah terdapat tombol Floating Action Button (ikon +) yang dapat digunakan untuk kembali ke halaman registrasi atau menambahkan data peserta baru. Tampilan ini merupakan kondisi awal sebelum pengguna melakukan proses registrasi pada aplikasi.
