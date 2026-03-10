@@ -159,3 +159,7 @@ Gambar tersebut memperlihatkan dialog konfirmasi penghapusan data peserta. Dialo
 
 
 Gambar tersebut menampilkan halaman Daftar Peserta pada aplikasi registrasi dalam kondisi belum terdapat data pendaftar. Pada bagian atas terdapat AppBar dengan judul “Daftar Peserta (0)” yang menunjukkan bahwa jumlah peserta yang terdaftar saat ini masih nol. Di bagian tengah layar ditampilkan ikon ilustrasi pengguna beserta teks “Belum ada pendaftar” dan keterangan tambahan “Daftar sekarang di halaman registrasi!”. Tampilan ini muncul ketika daftar peserta pada aplikasi masih kosong, sehingga sistem menampilkan pesan informatif kepada pengguna bahwa belum ada data yang tersimpan. Selain itu, di bagian kanan bawah terdapat tombol Floating Action Button (ikon +) yang dapat digunakan untuk kembali ke halaman registrasi atau menambahkan data peserta baru. Tampilan ini merupakan kondisi awal sebelum pengguna melakukan proses registrasi pada aplikasi.
+
+## 🎓 Akademik
+### Mata Kuliah: Pemrograman Aplikasi Bergerak
+### Program Studi: Sistem Informasi - Universitas Mulawarman
